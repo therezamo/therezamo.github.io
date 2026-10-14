@@ -1,25 +1,14 @@
 ---
-title: "When AI Investment Becomes a Macro Variable: Reading the IMF's October
-  2026 Outlook"
-description: The IMF credits AI investment with holding 2026 global growth above
-  3%, while flagging the same boom as a concentration risk. An evidence-based
-  reading with two charts.
-categories:
-  - AI Economics
-  - Global Economy
-tags:
-  - imf
-  - ai investment
-  - global growth
-  - macroeconomics
-  - weo 2026
+title: "When AI Investment Becomes a Macro Variable: Reading the IMF's October 2026 Outlook"
+description: "The IMF credits AI investment with holding 2026 global growth above 3%, while flagging the same boom as a concentration risk. An evidence-based reading with two charts."
+date: 2026-10-14 15:00:00 +0330
+categories: [AI Economics, Global Economy]
+tags: [imf, ai investment, global growth, macroeconomics, weo 2026]
 image:
-  path: /assets/img/posts/imf-ai-cover.png
-  alt: Abstract illustration of a rising investment curve with a dashed correction
-    branch over a network of connected nodes
-pin: false
-toc: false
+  path: /assets/img/posts/imf-ai-cover-map.png
+  alt: "World map with trade arcs linking the United States to AI hardware hubs in Asia and Mexico, with a microchip icon"
 ---
+
 **Key points**
 
 - The IMF projects global growth of 3.1% in 2026 and 3.4% in 2027, and attributes much of the resilience to AI-related investment that offset a war-driven energy shock (Lawder, 2026).
@@ -78,14 +67,14 @@ The October 2026 outlook treats AI investment as a macroeconomic variable: a sou
 
 ## References
 
-Ajanapanya, N. (2026, October 13). *IMF warns global resilience 'reaching its limits' as risks tilt downward*. The Nation Thailand. [https://www.nationthailand.com/business/economy/40072200](https://www.nationthailand.com/business/economy/40072200)
+Ajanapanya, N. (2026, October 13). *IMF warns global resilience 'reaching its limits' as risks tilt downward*. The Nation Thailand. https://www.nationthailand.com/business/economy/40072200
 
-International Monetary Fund. (2026a, January 19). *Global economy shakes off tariff shock amid tech-driven boom* [Blog post]. [https://www.imf.org/en/blogs/articles/2026/01/19/global-economy-shakes-off-tariff-shock-amid-tech-driven-boom](https://www.imf.org/en/blogs/articles/2026/01/19/global-economy-shakes-off-tariff-shock-amid-tech-driven-boom)
+International Monetary Fund. (2026a, January 19). *Global economy shakes off tariff shock amid tech-driven boom* [Blog post]. https://www.imf.org/en/blogs/articles/2026/01/19/global-economy-shakes-off-tariff-shock-amid-tech-driven-boom
 
-International Monetary Fund. (2026b, October 13). *World Economic Outlook, October 2026: Resilience under strain, urgent choices*. [https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026](https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026)
+International Monetary Fund. (2026b, October 13). *World Economic Outlook, October 2026: Resilience under strain, urgent choices*. https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026
 
-Lawder, D. (2026, October 13). *AI investment props up global growth, but war and debt threaten outlook, IMF says*. Reuters. [https://www.al-monitor.com/originals/2026/10/ai-investment-props-global-growth-war-and-debt-threaten-outlook-imf-says](https://www.al-monitor.com/originals/2026/10/ai-investment-props-global-growth-war-and-debt-threaten-outlook-imf-says)
+Lawder, D. (2026, October 13). *AI investment props up global growth, but war and debt threaten outlook, IMF says*. Reuters. https://www.al-monitor.com/originals/2026/10/ai-investment-props-global-growth-war-and-debt-threaten-outlook-imf-says
 
-SBS News. (2026, October 13). *IMF raises 2026 global growth forecast to 3.1%, citing AI investment boost*. [https://news.sbs.co.kr/english/article.do?news_id=N1008794945](https://news.sbs.co.kr/english/article.do?news_id=N1008794945)
+SBS News. (2026, October 13). *IMF raises 2026 global growth forecast to 3.1%, citing AI investment boost*. https://news.sbs.co.kr/english/article.do?news_id=N1008794945
 
-Xinhua. (2026, October 13). *IMF edges up 2026 global growth forecast to 3.1 pct as Mideast conflict, AI boom split world economy*. [https://english.news.cn/20261013/8ed2312c42d640b79237e2756ed1b86c/c.html](https://english.news.cn/20261013/8ed2312c42d640b79237e2756ed1b86c/c.html)
+Xinhua. (2026, October 13). *IMF edges up 2026 global growth forecast to 3.1 pct as Mideast conflict, AI boom split world economy*. https://english.news.cn/20261013/8ed2312c42d640b79237e2756ed1b86c/c.html
