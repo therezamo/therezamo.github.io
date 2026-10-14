@@ -5,33 +5,30 @@ icon: fas fa-briefcase
 order: 4
 ---
 
-## خلاصه فعالیت‌ها
-من رضا محمدی هستم. دانشجوی اقتصاد و علاقه‌مند به تحلیل داده‌های مالی و اقتصادی. در کنار مسیر آکادمیک، به عنوان کارشناس فروش در گالری جواهرات فعالیت می‌کنم. تمرکز اصلی من بر ترکیب مفاهیمی چون اقتصاد رفتاری و نظریه بازی‌ها با ابزارهای تحلیل داده برای درک بهتر و بهینه‌سازی فرآیندهای تجاری است.
+## Professional Summary
+I am Reza Mohammadi, an Economics Master's student with a strong passion for financial and economic data analysis. Currently working as a sales representative in the jewelry retail sector, my primary focus is combining concepts like behavioral finance and game theory with data analysis tools to better understand and optimize business processes.
 
-## مهارت‌های تخصصی
-- **زبان‌ها:** فارسی (مادری)، آلمانی (سطح A2)
-- **تحلیل داده:** مسلط به Microsoft Excel (فرمول‌نویسی منطقی، Data Validation، داشبوردهای پویا)
-- **مالی و اقتصاد:** اقتصاد رفتاری، نظریه بازی‌ها، تحلیل بازارهای مالی و تکنیکال (Price Action و Ichimoku)
+## Core Skills
+- **Languages:** Persian (Native), German (A2), English
+- **Data Analysis:** Microsoft Excel (Logical Formulas, Data Validation, Dynamic Dashboards), Google Sheets
+- **Finance & Economics:** Behavioral Finance, Game Theory, Technical Analysis (Price Action & Ichimoku)
 
-## مدارک و گواهینامه‌ها
+## Certifications
 <div class="cert-grid">
-   <!-- مدرک اول -->
+   <!-- Certificate 1 -->
    <div class="cert-card">
-      <img src="/assets/img/posts/behavioral-finance.jpg" alt="Behavioral Finance Certificate">
       <h3>Behavioral Finance</h3>
       <p>Coursera</p>
    </div>
    
-   <!-- مدرک دوم -->
+   <!-- Certificate 2 -->
    <div class="cert-card">
-      <img src="/assets/img/posts/game-theory.jpg" alt="Game Theory Certificate">
       <h3>Game Theory</h3>
       <p>Coursera</p>
    </div>
    
-   <!-- مدرک سوم -->
+   <!-- Certificate 3 -->
    <div class="cert-card">
-      <img src="/assets/img/posts/excel-data.jpg" alt="Excel Data Analysis">
       <h3>Excel Data Analysis</h3>
       <p>Coursera</p>
    </div>
@@ -55,11 +52,6 @@ order: 4
 .cert-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-}
-.cert-card img { 
-    max-width: 100%; 
-    border-radius: 5px; 
-    margin-bottom: 12px;
 }
 .cert-card h3 { 
     font-size: 1.05rem; 
