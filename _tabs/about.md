@@ -1,6 +1,5 @@
 ---
-I'm Reza, an economics graduate interested in how AI, behavioral insights and
-digital platforms reshape markets. This blog is where I think in public: short essays, reading notes and research ideas on **AI economics**, **behavioral economics**, **digital markets** and **blockchain economics**.
+# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
