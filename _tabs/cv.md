@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Portfolio & CV
+title: CV
 icon: fas fa-briefcase
 order: 4
 ---
 
-## Professional Summary
+## Summary
 I am Reza Mohammadi, an Economics Master's student with a strong passion for financial and economic data analysis. Currently working as a sales representative in the jewelry retail sector, my primary focus is combining concepts like behavioral finance and game theory with data analysis tools to better understand and optimize business processes.
 
 ## Core Skills
