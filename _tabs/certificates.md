@@ -19,49 +19,49 @@ For my full professional background, experience, and complete CV, please connect
    
    <!-- Certificate 1: Stanford / UBC -->
    <div class="cert-card">
-      <!-- <img src="/assets/img/posts/game-theory.jpg" alt="Game Theory"> -->
+      <img src="/assets/img/posts/game-theory.jpg" alt="Game Theory">
       <h3>Game Theory</h3>
       <p>Stanford University & UBC via Coursera</p>
    </div>
 
    <!-- Certificate 2: Duke University -->
    <div class="cert-card">
-      <!-- <img src="/assets/img/posts/behavioral-finance.jpg" alt="Behavioral Finance"> -->
+      <img src="/assets/img/posts/behavioral-finance.jpg" alt="Behavioral Finance">
       <h3>Behavioral Finance</h3>
       <p>Duke University via Coursera</p>
    </div>
 
    <!-- Certificate 3: Columbia University -->
    <div class="cert-card">
-      <!-- <img src="/assets/img/posts/financial-engineering.jpg" alt="Introduction to Financial Engineering and Risk Management"> -->
+      <img src="/assets/img/posts/financial-engineering.jpg" alt="Introduction to Financial Engineering and Risk Management">
       <h3>Financial Engineering & Risk Mgmt</h3>
       <p>Columbia University via Coursera</p>
    </div>
    
    <!-- Certificate 4: Sharif University -->
    <div class="cert-card">
-      <!-- <img src="/assets/img/posts/development-economics.jpg" alt="Winter School of Development Economics"> -->
+      <img src="/assets/img/posts/development-economics.jpg" alt="Winter School of Development Economics">
       <h3>Development Economics (Winter School)</h3>
       <p>Sharif University of Technology</p>
    </div>
 
    <!-- Certificate 5: Microsoft -->
    <div class="cert-card">
-      <!-- <img src="/assets/img/posts/excel-data-analysis.jpg" alt="Preparing Data for Analysis with Microsoft Excel"> -->
+      <img src="/assets/img/posts/excel-data-analysis.jpg" alt="Preparing Data for Analysis with Microsoft Excel">
       <h3>Excel Data Analysis</h3>
       <p>Microsoft via Coursera</p>
    </div>
 
    <!-- Certificate 6: Anthropic -->
    <div class="cert-card">
-      <!-- <img src="/assets/img/posts/ai-fluency.png" alt="AI Fluency for Small Businesses"> -->
+      <img src="/assets/img/posts/ai-fluency.png" alt="AI Fluency for Small Businesses">
       <h3>AI Fluency for Small Businesses</h3>
       <p>Anthropic & PayPal</p>
    </div>
 
    <!-- Certificate 7: SkillsBooster -->
    <div class="cert-card">
-      <!-- <img src="/assets/img/posts/claude-skills.jpg" alt="Claude Skills: Automating Business Workflows"> -->
+      <img src="/assets/img/posts/claude-skills.jpg" alt="Claude Skills: Automating Business Workflows">
       <h3>Claude Skills: Automating Workflows</h3>
       <p>SkillsBooster via Coursera</p>
    </div>
