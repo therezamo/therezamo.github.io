@@ -1,5 +1,8 @@
 ---
 title: "Bitcoin at $82,413: The Daily vs. 4H Timeframe Collision"
+description: A structural breakdown of BTC/USDT. The market is caught between a
+  bullish daily structure and a dominant bearish 4H trend. Here are the key
+  roadmaps, triggers, and targets for the next 2-3 weeks.
 categories:
   - Crypto Analysis
   - Technical Analysis
@@ -9,7 +12,7 @@ tags:
   - Trading
   - BTCUSDT
 image:
-  path: /assets/img/posts/btc-oct16-setup.png-1.png
+  path: /assets/img/posts/btc-oct16-setup.png-2.png
 pin: false
 toc: false
 ---
