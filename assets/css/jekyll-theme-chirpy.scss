@@ -906,3 +906,9 @@ html[data-bs-theme="dark"] #post-list .post-meta {
 html[data-bs-theme="dark"] #tail-wrapper footer p:first-child {
   color: #ffffff !important;
 }
+
+
+/* Hide only the “Some rights reserved.” tooltip span in the footer. */
+#tail-wrapper footer > p:first-child > span[data-bs-toggle="tooltip"] {
+  display: none !important;
+}
