@@ -143,9 +143,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # Disable PWA to prevent stale pages being served by an old service worker
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: false # Keep site navigation fresh; offline caching is not needed for this blog
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
