@@ -1072,3 +1072,38 @@ html[data-bs-theme="dark"] #toc-wrapper #toc .toc-link.active::after {
   background-color: #b31217 !important;
   border-color: #b31217 !important;
 }
+
+
+/* Chirpy's TOC scrollspy uses the is-active-link class. Override its active
+   color variable in dark mode so the current section is clearly distinguishable. */
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper {
+  --toc-highlight: #b31217 !important;
+  --toc-link-color: #ffffff !important;
+  --toc-link-hover-color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc .is-active-link,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc a.is-active-link,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc .toc-link.is-active-link,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc li.is-active-li > a,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc li.is-active-li > .toc-link,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc .is-active-link > a {
+  color: #b31217 !important;
+  -webkit-text-fill-color: #b31217 !important;
+  font-weight: 600 !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc .is-active-link *,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc a.is-active-link *,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc li.is-active-li > a *,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc .is-active-link > a * {
+  color: #b31217 !important;
+  -webkit-text-fill-color: #b31217 !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc .is-active-link::before,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc a.is-active-link::before,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper #toc li.is-active-li > a::before {
+  background-color: #b31217 !important;
+  border-color: #b31217 !important;
+}
