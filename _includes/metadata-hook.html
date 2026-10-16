@@ -1,0 +1,25 @@
+<!-- Remove stale Chirpy offline caches left by the previous PWA setup.
+     PWA caching is disabled in _config.yml so pages always reflect the latest deploy. -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        return Promise.all(registrations.map(function (registration) {
+          return registration.unregister();
+        }));
+      }).catch(function () {});
+    });
+  }
+
+  if ('caches' in window) {
+    window.addEventListener('load', function () {
+      caches.keys().then(function (keys) {
+        return Promise.all(keys.filter(function (key) {
+          return key.indexOf('chirpy-') === 0;
+        }).map(function (key) {
+          return caches.delete(key);
+        }));
+      }).catch(function () {});
+    });
+  }
+</script>
