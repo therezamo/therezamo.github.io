@@ -572,42 +572,71 @@ html[data-bs-theme="dark"] .featured-story__dot {
 }
 
 
-/* About page: preserve the original biography, with a calm editorial reading width. */
-.about-editorial {
-  max-width: 720px;
-  color: var(--text-color);
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 1.06rem;
-  line-height: 1.95;
+/* Dark-mode footer and lower page: merge everything into the same pure-black canvas. */
+html[data-bs-theme="dark"] #main-wrapper,
+html[data-bs-theme="dark"] #main-wrapper > .container,
+html[data-bs-theme="dark"] #main-wrapper .row,
+html[data-bs-theme="dark"] #main-wrapper main,
+html[data-bs-theme="dark"] #panel-wrapper,
+html[data-bs-theme="dark"] #panel-wrapper .access,
+html[data-bs-theme="dark"] #tail-wrapper,
+html[data-bs-theme="dark"] #tail-wrapper footer,
+html[data-bs-theme="dark"] #tail-wrapper footer p,
+html[data-bs-theme="dark"] #tail-wrapper footer::before,
+html[data-bs-theme="dark"] #tail-wrapper footer::after {
+  background: #000000 !important;
+  background-color: #000000 !important;
 }
 
-.about-editorial p {
-  margin: 0 0 1.2rem;
+html[data-bs-theme="dark"] #tail-wrapper {
+  margin-top: 0;
+  padding-top: 1rem;
+  border-top: 1px solid #292929;
 }
 
-.about-editorial strong {
-  color: var(--heading-color);
-  font-weight: 700;
+html[data-bs-theme="dark"] #tail-wrapper footer {
+  margin-top: 0;
+  padding-top: 1rem;
+  color: #b8b8b8 !important;
+  border: 0;
+  box-shadow: none;
 }
 
-.about-editorial a {
-  color: var(--editorial-red);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+html[data-bs-theme="dark"] #tail-wrapper footer p {
+  color: #b8b8b8 !important;
 }
 
-.about-editorial a:hover {
-  text-decoration-thickness: 2px;
+html[data-bs-theme="dark"] #tail-wrapper footer a {
+  color: #ff4b45 !important;
 }
 
-html[data-bs-theme="dark"] .about-editorial {
-  color: #e7e7e7;
+html[data-bs-theme="dark"] #tail-wrapper footer a:hover {
+  color: #ffffff !important;
 }
 
-html[data-bs-theme="dark"] .about-editorial strong {
-  color: #ffffff;
+html[data-bs-theme="dark"] #panel-wrapper,
+html[data-bs-theme="dark"] #panel-wrapper .access {
+  color: #b8b8b8 !important;
 }
 
-html[data-bs-theme="dark"] .about-editorial a {
+html[data-bs-theme="dark"] #panel-wrapper a {
   color: #ff4b45;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper .access > div,
+html[data-bs-theme="dark"] #panel-wrapper .access section,
+html[data-bs-theme="dark"] #panel-wrapper .access .card {
+  background: #000000 !important;
+  border-color: #292929 !important;
+  box-shadow: none !important;
+}
+
+html[data-bs-theme="dark"] #back-to-top {
+  background: #111111;
+  color: #ffffff;
+  border: 1px solid #292929;
+}
+
+html[data-bs-theme="dark"] #mask {
+  background: #000000;
 }
