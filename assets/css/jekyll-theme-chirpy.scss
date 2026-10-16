@@ -886,3 +886,23 @@ html[data-bs-theme="dark"] #post-list .post-meta {
     padding: 0.9rem;
   }
 }
+
+
+/* Hide the theme's rights-reservation sentence while keeping the site footer. */
+#tail-wrapper footer p:first-child .copyright,
+#tail-wrapper footer p:first-child .license,
+#tail-wrapper footer p:first-child {
+  /* Keep the author name, but suppress the rights-reservation text via its span. */
+}
+
+#tail-wrapper footer p:first-child .license {
+  display: none !important;
+}
+
+#tail-wrapper footer p:first-child {
+  color: #171717 !important;
+}
+
+html[data-bs-theme="dark"] #tail-wrapper footer p:first-child {
+  color: #ffffff !important;
+}
