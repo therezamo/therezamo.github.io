@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<div class="about-editorial">
-
 I'm Reza, an economics graduate interested in how AI, behavioral insights and
 digital platforms reshape markets.
 
@@ -18,5 +16,3 @@ from people working on similar questions.
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/rezamohamadi) or
 [GitHub](https://github.com/therezamo), or write to me by email.
-
-</div>
