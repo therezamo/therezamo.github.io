@@ -912,3 +912,45 @@ html[data-bs-theme="dark"] #tail-wrapper footer p:first-child {
 #tail-wrapper footer > p:first-child > span[data-bs-toggle="tooltip"] {
   display: none !important;
 }
+
+
+/* Article table of contents: pure black surface and white entries in dark mode. */
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav,
+html[data-bs-theme="dark"] #panel-wrapper #toc,
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  box-shadow: none !important;
+  border-color: #000000 !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper {
+  color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper .panel-heading,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav .toc-link,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav .toc-link.active,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav .toc-link:hover,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a span {
+  color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a::before,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a::after,
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover::before,
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover::after {
+  background: #000000 !important;
+  border-color: #000000 !important;
+  box-shadow: none !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a:hover {
+  opacity: 0.85;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a.active {
+  border-left-color: #ffffff !important;
+}
