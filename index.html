@@ -3,25 +3,66 @@ layout: home
 # Index page
 ---
 
-<section class="home-intro" aria-labelledby="home-intro-title">
-  <p class="home-intro__eyebrow">Independent notes on economics & technology</p>
-  <h1 id="home-intro-title">Economics behind the technologies shaping our future.</h1>
-  <p class="home-intro__summary">
-    I explore how artificial intelligence, human behaviour and digital markets
-    are changing the way economies work — one clear, evidence-led essay at a time.
-  </p>
-
-  <ul class="home-intro__topics" aria-label="Main topics">
-    <li>AI Economics</li>
-    <li>Behavioral Economics</li>
-    <li>Markets &amp; Crypto</li>
-  </ul>
-
-  <div class="home-intro__links">
-    <a class="home-intro__primary" href="#post-list">Explore articles <span aria-hidden="true">&nbsp;↓</span></a>
-    <a class="home-intro__secondary" href="/about/">About Reza <span aria-hidden="true">↗</span></a>
-    <a class="home-intro__secondary" href="https://www.linkedin.com/in/rezamohamadi" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+{% assign featured = site.posts.first %}
+<section class="editorial-hero" aria-labelledby="editorial-title">
+  <div class="editorial-hero__copy">
+    <p class="editorial-kicker"><span></span> Economics · Technology · Markets</p>
+    <h1 id="editorial-title">Understanding the economy behind <em>tomorrow.</em></h1>
+    <p class="editorial-hero__lead">
+      Clear, evidence-led perspectives on artificial intelligence, human behaviour,
+      and the forces reshaping global markets.
+    </p>
+    <div class="editorial-hero__actions">
+      <a class="editorial-button" href="#latest-articles">Explore the writing <span aria-hidden="true">↘</span></a>
+      <a class="editorial-text-link" href="/about/">About the author <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="editorial-topics" aria-label="Research topics">
+      <span>AI Economics</span>
+      <span>Behavioral Economics</span>
+      <span>Digital Assets</span>
+    </div>
   </div>
+
+  {% if featured %}
+    {% assign featured_image = featured.image.path | default: featured.image %}
+    <article class="featured-story">
+      <div class="featured-story__topline">
+        <span>Latest analysis</span>
+        <span class="featured-story__dot" aria-hidden="true"></span>
+      </div>
+      <a class="featured-story__main" href="{{ featured.url | relative_url }}">
+        {% if featured.image %}
+          <div class="featured-story__image-wrap">
+            <img src="{{ featured_image | relative_url }}" alt="{{ featured.image.alt | default: featured.title | escape }}">
+          </div>
+        {% else %}
+          <div class="featured-story__abstract" aria-hidden="true">
+            <span class="featured-story__orbit featured-story__orbit--one"></span>
+            <span class="featured-story__orbit featured-story__orbit--two"></span>
+            <span class="featured-story__abstract-label">IDEAS IN MOTION</span>
+          </div>
+        {% endif %}
+        <div class="featured-story__body">
+          <p class="featured-story__meta">
+            {% if featured.categories.size > 0 %}{{ featured.categories | first }}{% else %}Research note{% endif %}
+            <span aria-hidden="true">·</span>
+            {{ featured.date | date: "%b %-d, %Y" }}
+          </p>
+          <h2>{{ featured.title | escape }}</h2>
+          {% if featured.description %}
+            <p>{{ featured.description | escape }}</p>
+          {% endif %}
+          <span class="featured-story__read">Read the analysis <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </article>
+  {% endif %}
 </section>
 
-<h2 class="home-section-title">Latest writing</h2>
+<section class="home-latest-heading" id="latest-articles" aria-labelledby="latest-title">
+  <div>
+    <p class="editorial-kicker">The journal</p>
+    <h2 id="latest-title">Latest articles</h2>
+  </div>
+  <a href="/archives/">Browse the archive <span aria-hidden="true">↗</span></a>
+</section>
