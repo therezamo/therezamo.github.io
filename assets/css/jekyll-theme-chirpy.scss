@@ -954,3 +954,53 @@ html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a:hover {
 html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a.active {
   border-left-color: #ffffff !important;
 }
+
+
+/* Final TOC polish: remove the grey sticky fade and restore active-section accent. */
+html[data-bs-theme="dark"] #panel-wrapper,
+html[data-bs-theme="dark"] #panel-wrapper > *,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper *,
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover,
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover *,
+html[data-bs-theme="dark"] #panel-wrapper #toc,
+html[data-bs-theme="dark"] #panel-wrapper #toc * {
+  background-color: #000000 !important;
+  box-shadow: none !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper {
+  background-image: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover {
+  background-image: none !important;
+  opacity: 1 !important;
+  border: 0 !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a:link,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a:visited,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav .toc-link {
+  color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a.active,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav .toc-link.active,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a[aria-current="location"] {
+  color: #b31217 !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a.active *,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav .toc-link.active * {
+  color: #b31217 !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a.active::before,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a.active::after {
+  background: #b31217 !important;
+  border-color: #b31217 !important;
+}
