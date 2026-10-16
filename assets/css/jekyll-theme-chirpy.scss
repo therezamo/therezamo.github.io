@@ -640,3 +640,140 @@ html[data-bs-theme="dark"] #back-to-top {
 html[data-bs-theme="dark"] #mask {
   background: #000000;
 }
+
+
+/* Homepage refinements: a quiet section panel, no stray separator rules. */
+.home-latest-heading {
+  align-items: center;
+  margin: 1.7rem 0 0;
+  padding: 1rem 1.15rem;
+  border: 0 !important;
+  border-top: 3px solid var(--editorial-red) !important;
+  background: #f3f1ed;
+}
+
+.home-latest-heading h2 {
+  color: #171717;
+}
+
+.home-latest-heading .editorial-kicker {
+  color: #646464;
+}
+
+.home-latest-heading > a {
+  color: #b30f09;
+}
+
+#post-list {
+  margin: 0 0 1.5rem;
+  padding: 0.2rem 1.15rem 0.8rem;
+  background: #f3f1ed;
+  border: 0 !important;
+}
+
+#post-list .card-wrapper,
+#post-list .card-wrapper:hover {
+  border: 0 !important;
+  border-radius: 0;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+#post-list .card-wrapper + .card-wrapper {
+  border-top: 1px solid #dedbd5 !important;
+}
+
+#post-list .card-body {
+  padding-top: 1.05rem;
+  padding-bottom: 1.05rem;
+}
+
+#post-list .card-title {
+  color: #171717;
+}
+
+#post-list .card-text,
+#post-list .post-meta {
+  color: #646464;
+}
+
+#panel-wrapper .access h2,
+#panel-wrapper .access h3,
+#panel-wrapper .access h4,
+#panel-wrapper .access .panel-heading,
+#panel-wrapper .access .content h2,
+#panel-wrapper .access .content h3 {
+  color: #171717 !important;
+}
+
+#tail-wrapper footer > p:nth-child(2) {
+  display: none !important;
+}
+
+#tail-wrapper footer > p:first-child a {
+  color: #171717 !important;
+}
+
+html[data-bs-theme="dark"] #panel-wrapper .access h2,
+html[data-bs-theme="dark"] #panel-wrapper .access h3,
+html[data-bs-theme="dark"] #panel-wrapper .access h4,
+html[data-bs-theme="dark"] #panel-wrapper .access .panel-heading,
+html[data-bs-theme="dark"] #panel-wrapper .access .content h2,
+html[data-bs-theme="dark"] #panel-wrapper .access .content h3 {
+  color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] .home-latest-heading {
+  background: #080808;
+  border-top-color: #e3120b !important;
+}
+
+html[data-bs-theme="dark"] .home-latest-heading h2 {
+  color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] .home-latest-heading .editorial-kicker,
+html[data-bs-theme="dark"] .home-latest-heading > a {
+  color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] #post-list {
+  background: #080808;
+  border: 0 !important;
+}
+
+html[data-bs-theme="dark"] #post-list .card-wrapper,
+html[data-bs-theme="dark"] #post-list .card-wrapper:hover {
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html[data-bs-theme="dark"] #post-list .card-wrapper + .card-wrapper {
+  border-top: 1px solid #202020 !important;
+}
+
+html[data-bs-theme="dark"] #post-list .card-title {
+  color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] #post-list .card-text,
+html[data-bs-theme="dark"] #post-list .post-meta {
+  color: #b8b8b8 !important;
+}
+
+html[data-bs-theme="dark"] #tail-wrapper footer > p:first-child,
+html[data-bs-theme="dark"] #tail-wrapper footer > p:first-child a {
+  color: #ffffff !important;
+}
+
+@media (max-width: 767.98px) {
+  .home-latest-heading {
+    margin-top: 1.25rem;
+    padding: 0.9rem;
+  }
+
+  #post-list {
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+  }
+}
