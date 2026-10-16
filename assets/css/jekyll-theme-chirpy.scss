@@ -1004,3 +1004,71 @@ html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper nav a.active::after {
   background: #b31217 !important;
   border-color: #b31217 !important;
 }
+
+
+/* Dark mode: eliminate TOC fades and make the floating back-to-top control black. */
+html[data-bs-theme="dark"] #panel-wrapper,
+html[data-bs-theme="dark"] #panel-wrapper::before,
+html[data-bs-theme="dark"] #panel-wrapper::after,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper::before,
+html[data-bs-theme="dark"] #panel-wrapper #toc-wrapper::after,
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover,
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover::before,
+html[data-bs-theme="dark"] #panel-wrapper .toc-border-cover::after {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+html[data-bs-theme="dark"] #back-to-top,
+html[data-bs-theme="dark"] #back-to-top button,
+html[data-bs-theme="dark"] a#back-to-top,
+html[data-bs-theme="dark"] .back-to-top,
+html[data-bs-theme="dark"] #back-to-top:hover,
+html[data-bs-theme="dark"] a#back-to-top:hover {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-color: #000000 !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+html[data-bs-theme="dark"] #back-to-top i,
+html[data-bs-theme="dark"] a#back-to-top i,
+html[data-bs-theme="dark"] .back-to-top i {
+  color: #ffffff !important;
+}
+
+/* Match the light theme's active TOC behavior: white normally, dark red when active. */
+html[data-bs-theme="dark"] #toc-wrapper #toc a,
+html[data-bs-theme="dark"] #toc-wrapper #toc a:link,
+html[data-bs-theme="dark"] #toc-wrapper #toc a:visited,
+html[data-bs-theme="dark"] #toc-wrapper #toc .toc-link {
+  color: #ffffff !important;
+  transition: color 0.15s ease-in-out;
+}
+
+html[data-bs-theme="dark"] #toc-wrapper #toc a.active,
+html[data-bs-theme="dark"] #toc-wrapper #toc .toc-link.active,
+html[data-bs-theme="dark"] #toc-wrapper #toc a[aria-current="location"],
+html[data-bs-theme="dark"] #toc-wrapper #toc .is-active {
+  color: #b31217 !important;
+}
+
+html[data-bs-theme="dark"] #toc-wrapper #toc a.active *,
+html[data-bs-theme="dark"] #toc-wrapper #toc .toc-link.active *,
+html[data-bs-theme="dark"] #toc-wrapper #toc a[aria-current="location"] * {
+  color: #b31217 !important;
+}
+
+html[data-bs-theme="dark"] #toc-wrapper #toc a.active::before,
+html[data-bs-theme="dark"] #toc-wrapper #toc a.active::after,
+html[data-bs-theme="dark"] #toc-wrapper #toc .toc-link.active::before,
+html[data-bs-theme="dark"] #toc-wrapper #toc .toc-link.active::after {
+  background-color: #b31217 !important;
+  border-color: #b31217 !important;
+}
