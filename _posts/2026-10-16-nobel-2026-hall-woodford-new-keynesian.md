@@ -5,9 +5,6 @@ date: 2026-10-16 00:30:00 +0330
 categories: [Macroeconomics, Nobel Prize]
 tags: [nobel prize, robert hall, michael woodford, new keynesian, monetary policy, stabilization policy]
 math: true
-image:
-  path: /assets/img/posts/nobel-2026-cover.jfif
-  alt: "Robert E. Hall and Michael Woodford, laureates of the 2026 Nobel Memorial Prize in Economic Sciences"
 ---
 
 **Key points**
