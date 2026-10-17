@@ -13,8 +13,7 @@ tags:
   - new keynesian
   - monetary policy
   - stabilization policy
-image:
-  path: /assets/img/posts/Nobleprizeineconomics2026.webp
+path: /assets/img/posts/nobel-2026-cover-wide.jpg
 pin: false
 toc: true
 math: true
