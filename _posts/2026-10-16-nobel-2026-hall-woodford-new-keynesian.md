@@ -1,12 +1,23 @@
 ---
 title: "Hall and Woodford, Nobel 2026: How Expectations Rebuilt Stabilization Policy"
-description: "The 2026 economics prize went to Robert Hall and Michael Woodford. What their papers showed, how the New Keynesian model works, where it falls short, and what I take from it."
-date: 2026-10-16 00:30:00 +0330
-categories: [Macroeconomics, Nobel Prize]
-tags: [nobel prize, robert hall, michael woodford, new keynesian, monetary policy, stabilization policy]
-math: true
+description: The 2026 economics prize went to Robert Hall and Michael Woodford.
+  What their papers showed, how the New Keynesian model works, where it falls
+  short, and what I take from it.
+categories:
+  - Macroeconomics
+  - Nobel Prize
+tags:
+  - nobel prize
+  - robert hall
+  - michael woodford
+  - new keynesian
+  - monetary policy
+  - stabilization policy
+image:
+  path: /assets/img/posts/Nobleprizeineconomics2026.webp
+pin: false
+toc: false
 ---
-
 **Key points**
 
 - Robert E. Hall (Stanford) and Michael Woodford (Columbia) won the 2026 prize "for microeconomic foundations of macroeconomic stabilisation" (Royal Swedish Academy of Sciences, 2026a).
@@ -87,7 +98,7 @@ Hall showed how to test the idea that households plan around the future and foun
 
 ## References
 
-Columbia University. (2026, October 12). *Columbia's Michael Woodford wins 2026 Nobel Memorial Prize in Economics*. https://news.columbia.edu/news/columbias-michael-woodford-wins-2026-nobel-memorial-prize-economics
+Columbia University. (2026, October 12). *Columbia's Michael Woodford wins 2026 Nobel Memorial Prize in Economics*. [https://news.columbia.edu/news/columbias-michael-woodford-wins-2026-nobel-memorial-prize-economics](https://news.columbia.edu/news/columbias-michael-woodford-wins-2026-nobel-memorial-prize-economics)
 
 Del Negro, M., Giannoni, M., & Patterson, C. (2023). The forward guidance puzzle. *Journal of Political Economy Macroeconomics, 1*(1), 43-79.
 
@@ -105,19 +116,19 @@ Lucas, R. E. (1976). Econometric policy evaluation: A critique. *Carnegie-Roches
 
 McKay, A., Nakamura, E., & Steinsson, J. (2016). The power of forward guidance revisited. *American Economic Review, 106*(10), 3133-3158.
 
-NPR. (2026, October 12). *2 Americans win Nobel Prize in economics for work on boom-bust cycles*. https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics
+NPR. (2026, October 12). *2 Americans win Nobel Prize in economics for work on boom-bust cycles*. [https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics](https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics)
 
 Rotemberg, J. J., & Woodford, M. (1997). An optimization-based econometric framework for the evaluation of monetary policy. *NBER Macroeconomics Annual, 12*, 297-346.
 
-Royal Swedish Academy of Sciences. (2026a, October 12). *The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2026* [Press release]. https://www.nobelprize.org/prizes/economic-sciences/2026/press-release/
+Royal Swedish Academy of Sciences. (2026a, October 12). *The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2026* [Press release]. [https://www.nobelprize.org/prizes/economic-sciences/2026/press-release/](https://www.nobelprize.org/prizes/economic-sciences/2026/press-release/)
 
-Royal Swedish Academy of Sciences. (2026b). *Announcement of the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2026*. https://www.nobelprize.org/prizes/economic-sciences/2026/prize-announcement/
+Royal Swedish Academy of Sciences. (2026b). *Announcement of the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2026*. [https://www.nobelprize.org/prizes/economic-sciences/2026/prize-announcement/](https://www.nobelprize.org/prizes/economic-sciences/2026/prize-announcement/)
 
-Royal Swedish Academy of Sciences. (2026c). *Popular science background: Microfoundations deliver macro insights*. https://www.nobelprize.org/prizes/economic-sciences/2026/popular-information/
+Royal Swedish Academy of Sciences. (2026c). *Popular science background: Microfoundations deliver macro insights*. [https://www.nobelprize.org/prizes/economic-sciences/2026/popular-information/](https://www.nobelprize.org/prizes/economic-sciences/2026/popular-information/)
 
 Shimer, R. (2005). The cyclical behavior of equilibrium unemployment and vacancies. *American Economic Review, 95*(1), 25-49.
 
-Time. (2026, October 12). *Meet the 2026 Nobel Prize winners*. https://time.com/article/2026/10/05/nobel-prize-2026-winners/
+Time. (2026, October 12). *Meet the 2026 Nobel Prize winners*. [https://time.com/article/2026/10/05/nobel-prize-2026-winners/](https://time.com/article/2026/10/05/nobel-prize-2026-winners/)
 
 Woodford, M. (1998). Doing without money: Controlling inflation in a post-monetary world. *Review of Economic Dynamics, 1*(1), 173-219.
 
