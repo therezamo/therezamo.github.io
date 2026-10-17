@@ -4,8 +4,8 @@ description: The 2026 economics prize went to Robert Hall and Michael Woodford.
   What their papers showed, how the New Keynesian model works, where it falls
   short, and what I take from it.
 categories:
-  - Macroeconomics
-  - Nobel Prize
+  - Nobel Prize in Economics
+  - "2026"
 tags:
   - nobel prize
   - robert hall
