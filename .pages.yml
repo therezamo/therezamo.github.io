@@ -23,8 +23,8 @@ content:
         label: Cover image
         type: object
         fields:
-          - { name: path, label: Image, type: image }
-          - { name: alt, label: Image description, type: string }
+      - { name: path, label: Image, type: image }
+      - { name: alt, label: Image description, type: string }
       - { name: pin, label: Pin to top of homepage, type: boolean }
       - { name: toc, label: Show table of contents, type: boolean, default: true }
       - { name: math, label: Enable math equations, type: boolean }
