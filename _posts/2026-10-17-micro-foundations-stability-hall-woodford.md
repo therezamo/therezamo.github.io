@@ -1,5 +1,6 @@
 ---
 title: "The Micro Foundations of Stability: What Hall and Woodford Teach Us About Economic Policy"
+permalink: /posts/micro-foundations-stability-hall-woodford/
 description: "Robert E. Hall and Michael Woodford connect macroeconomic stability to household decisions, expectations, and credible monetary policy. But how much control can these ideas really deliver?"
 date: 2026-10-17 13:00:00 +0330
 categories: [Global Economy]
