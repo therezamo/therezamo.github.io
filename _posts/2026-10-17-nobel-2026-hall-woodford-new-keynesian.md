@@ -13,10 +13,12 @@ tags:
   - new keynesian
   - monetary policy
   - stabilization policy
-path: /assets/img/posts/nobel-2026-cover-wide.jpg
 pin: false
 toc: true
 math: true
+image:
+  path: /assets/img/posts/Nobleprizeineconomics2026.webp
+  alt: "Cover image for the 2026 Nobel Prize in Economics article"
 ---
 **Key points**
 
