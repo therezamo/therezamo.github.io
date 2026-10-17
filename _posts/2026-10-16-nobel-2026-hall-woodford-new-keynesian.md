@@ -16,7 +16,8 @@ tags:
 image:
   path: /assets/img/posts/Nobleprizeineconomics2026.webp
 pin: false
-toc: false
+toc: true
+math: true
 ---
 **Key points**
 
