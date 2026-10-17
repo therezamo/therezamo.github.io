@@ -3,8 +3,8 @@ title: "Bitcoin: Two Scenarios for the Next 2–3 Weeks"
 permalink: /posts/bitcoin-two-scenarios/
 description: "Bitcoin is caught between bullish daily structure and a strong bearish 4H trend. A scenario-based look at the key levels, triggers, invalidation points, and risk."
 date: 2026-10-16 00:00:00 +0330
-categories: [Crypto Markets, Technical Analysis]
-tags: [bitcoin, cryptocurrency, technical analysis, market structure, risk management]
+categories: [Technical Analysis]
+tags: [cryptocurrency, technical analysis, market structure, risk management]
 image:
   path: /assets/img/posts/btc-oct16-setup.png.png
   alt: "Bitcoin technical-analysis chart outlining bullish and bearish scenarios for the next two to three weeks"
