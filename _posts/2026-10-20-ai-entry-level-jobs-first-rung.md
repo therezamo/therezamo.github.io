@@ -35,7 +35,7 @@ To find studies I would have missed, I used the literature review by Imas and Sc
 
 The Stanford study uses payroll data from ADP covering millions of US workers through June 2026. Its headline is that employment of workers aged 22 to 25 in AI-exposed occupations is 19% below the path it would have followed had it matched less-exposed peers. The divergence has widened since the authors first reported it in August 2025, it runs through reduced hiring rather than separations, and it is concentrated in occupations where AI mostly substitutes for human tasks. Where AI mostly complements workers, employment is flat or rising (Brynjolfsson et al., 2026).
 
-![Bar chart of the Stanford employment gap estimate across three versions: 13%, 16% and 19%](/assets/img/posts/ai-canaries-gap-versions.svg){: w="760" }
+![Bar chart of the Stanford employment gap estimate across three versions: 13%, 16% and 19%](/assets/img/posts/ai-canaries-gap-versions.svg?v=20261020){: w="760" }
 *Figure 1. The gap reported by the Stanford authors across versions. The versions differ in data and method, so the rise is a pattern, not a single measured trend.*
 
 Other data point the same way. A Census Bureau study finds that in the most AI-exposed fifth of industries, hires of 22 to 24-year-olds dropped by about 9% right after ChatGPT's release (Tucker, 2026). Another Census study follows 6.7 million bachelor's graduates and finds that graduates of the most exposed tenth of majors, mostly computer science, were about 5 percentage points less likely to be employed right after graduation, with initial earnings about 13% lower (Orr et al., 2026). The Dallas Fed's reading of the Stanford result adds a detail: the drop comes mainly from fewer people moving from outside the workforce into jobs, not from layoffs (Federal Reserve Bank of Dallas, 2026).
@@ -52,7 +52,7 @@ Administrative data from the Nordic countries are the least favorable to the hea
 
 On the economy as a whole, the effect is small so far. The Dallas Fed calculates that even if the entire decline in young, AI-exposed employment turned into unemployment, it would add only 0.1 percentage points to the aggregate unemployment rate (Federal Reserve Bank of Dallas, 2026). The summer of 2026 is consistent with that: unemployment among 22 to 25-year-old college graduates averaged 7.3%, inside the 6.3% to 7.8% range of the previous four summers (Fairlie & Wu, 2026, as summarized by Imas & Schaal, 2026).
 
-![Bar chart of summer 2026 unemployment of recent graduates at 7.3 percent against a shaded range of 6.3 to 7.8 percent for 2022 to 2025](/assets/img/posts/ai-grad-unemployment-2026.svg){: w="760" }
+![Bar chart of summer 2026 unemployment of recent graduates at 7.3 percent against a shaded range of 6.3 to 7.8 percent for 2022 to 2025](/assets/img/posts/ai-grad-unemployment-2026.svg?v=20261020){: w="760" }
 *Figure 2. Unemployment of 22 to 25-year-old college graduates, summer 2026 against the range of the previous four summers.*
 
 Two details matter here. A broader measure that counts graduates who want a job but are not searching reached 10.4%, the highest of the five summers, though not significantly different. And the sample is small enough that it cannot rule out increases of 2 to 3 percentage points. A sharp drop concentrated in a few exposed majors, as in the Census graduate study, would barely move this average.
