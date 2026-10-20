@@ -35,8 +35,17 @@ To find studies I would have missed, I used the literature review by Imas and Sc
 
 The Stanford study uses payroll data from ADP covering millions of US workers through June 2026. Its headline is that employment of workers aged 22 to 25 in AI-exposed occupations is 19% below the path it would have followed had it matched less-exposed peers. The divergence has widened since the authors first reported it in August 2025, it runs through reduced hiring rather than separations, and it is concentrated in occupations where AI mostly substitutes for human tasks. Where AI mostly complements workers, employment is flat or rising (Brynjolfsson et al., 2026).
 
-![Bar chart of the Stanford employment gap estimate across three versions: 13%, 16% and 19%](/assets/img/posts/ai-canaries-gap-versions.svg?v=20261020){: w="760" }
-*Figure 1. The gap reported by the Stanford authors across versions. The versions differ in data and method, so the rise is a pattern, not a single measured trend.*
+<div class="article-chart">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="gap-title gap-desc" style="width:100%;height:auto">
+<title id="gap-title">Estimated employment gap for young workers</title><desc id="gap-desc">Three reported versions of the Stanford study: 13, 16 and 19 percent. Versions use different data and methods.</desc>
+<rect width="1000" height="520" rx="18" fill="#fcfbf8"/><text x="55" y="58" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#172b3a">The estimated employment gap</text><text x="55" y="91" font-family="Arial,sans-serif" font-size="17" fill="#596a76">Young workers in AI-exposed occupations · reported versions</text>
+<g stroke="#dce1e3" stroke-width="1.5"><line x1="120" y1="150" x2="920" y2="150"/><line x1="120" y1="225" x2="920" y2="225"/><line x1="120" y1="300" x2="920" y2="300"/><line x1="120" y1="375" x2="920" y2="375"/></g>
+<g font-family="Arial,sans-serif" font-size="15" fill="#596a76"><text x="74" y="155">20%</text><text x="74" y="230">15%</text><text x="74" y="305">10%</text><text x="82" y="380">5%</text><text x="88" y="455">0%</text></g>
+<g fill="#2f6d86"><rect x="205" y="260" width="150" height="195" rx="5"/><rect x="435" y="215" width="150" height="240" rx="5"/><rect x="665" y="170" width="150" height="285" rx="5"/></g>
+<g font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#172b3a" text-anchor="middle"><text x="280" y="244">13%</text><text x="510" y="199">16%</text><text x="740" y="154">19%</text></g>
+<g font-family="Arial,sans-serif" font-size="17" fill="#334956" text-anchor="middle"><text x="280" y="485">Version 1</text><text x="510" y="485">Version 2</text><text x="740" y="485">Version 3</text></g>
+</svg>
+<p><em>Figure 1. The reported estimates differ in data and method; they should not be read as a consistent time series.</em></p></div>
 
 Other data point the same way. A Census Bureau study finds that in the most AI-exposed fifth of industries, hires of 22 to 24-year-olds dropped by about 9% right after ChatGPT's release (Tucker, 2026). Another Census study follows 6.7 million bachelor's graduates and finds that graduates of the most exposed tenth of majors, mostly computer science, were about 5 percentage points less likely to be employed right after graduation, with initial earnings about 13% lower (Orr et al., 2026). The Dallas Fed's reading of the Stanford result adds a detail: the drop comes mainly from fewer people moving from outside the workforce into jobs, not from layoffs (Federal Reserve Bank of Dallas, 2026).
 
@@ -52,8 +61,14 @@ Administrative data from the Nordic countries are the least favorable to the hea
 
 On the economy as a whole, the effect is small so far. The Dallas Fed calculates that even if the entire decline in young, AI-exposed employment turned into unemployment, it would add only 0.1 percentage points to the aggregate unemployment rate (Federal Reserve Bank of Dallas, 2026). The summer of 2026 is consistent with that: unemployment among 22 to 25-year-old college graduates averaged 7.3%, inside the 6.3% to 7.8% range of the previous four summers (Fairlie & Wu, 2026, as summarized by Imas & Schaal, 2026).
 
-![Bar chart of summer 2026 unemployment of recent graduates at 7.3 percent against a shaded range of 6.3 to 7.8 percent for 2022 to 2025](/assets/img/posts/ai-grad-unemployment-2026.svg?v=20261020){: w="760" }
-*Figure 2. Unemployment of 22 to 25-year-old college graduates, summer 2026 against the range of the previous four summers.*
+<div class="article-chart">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="unemp-title unemp-desc" style="width:100%;height:auto">
+<title id="unemp-title">Recent graduates unemployment rate</title><desc id="unemp-desc">Summer 2026 estimate of 7.3 percent within the 6.3 to 7.8 percent range observed over the previous four summers.</desc>
+<rect width="1000" height="520" rx="18" fill="#fcfbf8"/><text x="55" y="58" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#172b3a">Recent graduates: unemployment</text><text x="55" y="91" font-family="Arial,sans-serif" font-size="17" fill="#596a76">US college graduates aged 22–25 · summer 2026</text>
+<rect x="180" y="175" width="640" height="190" rx="10" fill="#e3eee6"/><line x1="180" y1="175" x2="820" y2="175" stroke="#7d9d88" stroke-width="2" stroke-dasharray="7 7"/><line x1="180" y1="365" x2="820" y2="365" stroke="#7d9d88" stroke-width="2" stroke-dasharray="7 7"/>
+<g font-family="Arial,sans-serif" font-size="19" fill="#42634d"><text x="835" y="182">7.8%</text><text x="835" y="372">6.3%</text></g><line x1="500" y1="135" x2="500" y2="415" stroke="#2f6d86" stroke-width="4"/><circle cx="500" cy="238" r="13" fill="#2f6d86" stroke="#fcfbf8" stroke-width="4"/><rect x="524" y="211" width="112" height="52" rx="9" fill="#2f6d86"/><text x="580" y="245" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#fff" text-anchor="middle">7.3%</text><text x="500" y="450" font-family="Arial,sans-serif" font-size="19" fill="#334956" text-anchor="middle">Summer 2026 estimate</text>
+</svg>
+<p><em>Figure 2. The 7.3% estimate falls within the 6.3%–7.8% range of the previous four summers.</em></p></div>
 
 Two details matter here. A broader measure that counts graduates who want a job but are not searching reached 10.4%, the highest of the five summers, though not significantly different. And the sample is small enough that it cannot rule out increases of 2 to 3 percentage points. A sharp drop concentrated in a few exposed majors, as in the Census graduate study, would barely move this average.
 
