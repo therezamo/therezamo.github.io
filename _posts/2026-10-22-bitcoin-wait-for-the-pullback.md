@@ -2,7 +2,7 @@
 title: "Bitcoin: Stuck Inside the Bearish FVG, Waiting for a Pullback"
 description: "BTC/USDT sits inside a bearish fair value gap with no daily trend. The bullish and bearish triggers, the levels that decide between them, and why the call is to wait."
 date: 2026-10-22 00:30:00 +0330
-categories: [Markets, Bitcoin]
+categories: [Crypto Markets, Technical Analysis]
 tags: [bitcoin, btcusdt, technical analysis, market structure]
 toc: true
 image:
