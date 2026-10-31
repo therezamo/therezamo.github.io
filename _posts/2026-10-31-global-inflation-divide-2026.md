@@ -1,7 +1,7 @@
 ---
 title: "The Global Inflation Divide: Why 2026 Looks So Different Across Countries"
 description: "The IMF projects global inflation at 4.7% in 2026. But behind that average lies a striking divide, from deflation to extreme inflation. Here's what the map reveals."
-date: 2026-10-31 14:00:00 +0330
+date: 2026-10-31 00:00:00 +0330
 categories: [Macroeconomics, Global Economy]
 tags: [inflation, IMF, global economy, monetary policy, exchange rates]
 toc: true
