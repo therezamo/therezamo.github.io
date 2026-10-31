@@ -5,9 +5,6 @@ date: 2026-10-31 00:00:00 +0330
 categories: [Macroeconomics, Global Economy]
 tags: [inflation, IMF, global economy, monetary policy, exchange rates]
 toc: true
-image:
-  path: /assets/img/posts/global-inflation-2026.jpg
-  alt: "Visual Capitalist map of projected global inflation rates in 2026, based on the IMF October 2026 World Economic Outlook"
 ---
 
 **The headline number is 4.7%. The reality is far less uniform.**
