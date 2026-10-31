@@ -5,6 +5,9 @@ date: 2026-10-31 00:00:00 +0330
 categories: [Macroeconomics, Global Economy]
 tags: [inflation, IMF, global economy, monetary policy, exchange rates]
 toc: true
+image:
+  path: /assets/img/posts/global-inflation-2026.jpg
+  alt: Global inflation forecasts for 2026 by country, based on the IMF October 2026 World Economic Outlook
 ---
 
 **The headline number is 4.7%. The reality is far less uniform.**
@@ -12,6 +15,10 @@ toc: true
 The International Monetary Fund projects global headline inflation to reach 4.7% in 2026, before easing to 4.1% in 2027. At first glance, that sounds like a relatively contained global average. But averages can conceal very different economic experiences.
 
 The map accompanying this article, published by **Visual Capitalist** and based on the IMF's October 2026 *World Economic Outlook* (WEO), compares projected inflation across 191 economies. Venezuela is at 467.9%, Iran at 78.6%, and Sudan at 41.3%. At the other end, Niger is projected to experience deflation of 1.9%.
+
+![Global inflation forecasts by country in 2026](/assets/img/posts/global-inflation-2026.jpg){: w="800" h="899" }
+
+*Source: Visual Capitalist, based on the IMF World Economic Outlook, October 2026.*
 
 That is not simply a ranking of expensive and inexpensive countries. It is a snapshot of very different monetary systems, fiscal positions, exchange-rate regimes, supply conditions, and institutional resilience.
 
