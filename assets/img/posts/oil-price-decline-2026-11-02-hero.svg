@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Oil tanker at dusk</title>
+  <desc id="desc">A tanker crosses dark teal water beneath a muted amber sky, an editorial illustration for an analysis of oil markets and shipping risk.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#102937"/><stop offset=".55" stop-color="#294751"/><stop offset="1" stop-color="#76594b"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="72%" cy="45%" r="48%">
+      <stop offset="0" stop-color="#e4a36d" stop-opacity=".72"/><stop offset=".35" stop-color="#cb805e" stop-opacity=".25"/><stop offset="1" stop-color="#cb805e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c3f4b"/><stop offset="1" stop-color="#0a1c29"/>
+    </linearGradient>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#253b42"/><stop offset="1" stop-color="#101e28"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="620" fill="url(#sunGlow)"/>
+  <circle cx="1165" cy="355" r="126" fill="#e4a36d" opacity=".78"/>
+  <circle cx="1165" cy="355" r="170" fill="#e4a36d" opacity=".08"/>
+  <path d="M0 475 C250 448 390 494 635 466 S1040 448 1260 470 S1470 493 1600 462 V610 H0Z" fill="#314e54" opacity=".48"/>
+  <path d="M0 534 C230 508 415 548 655 524 S1085 514 1285 534 S1485 552 1600 526 V900 H0Z" fill="url(#water)"/>
+  <g fill="none" stroke="#a3b6b2" stroke-opacity=".19" stroke-width="3">
+    <path d="M75 666 C195 647 290 674 400 660"/><path d="M1160 684 C1275 662 1395 688 1530 665"/>
+    <path d="M845 744 C1015 722 1135 752 1305 734"/><path d="M150 789 C285 770 405 796 545 778"/>
+    <path d="M650 842 C800 823 940 850 1080 832"/><path d="M1265 815 C1372 797 1460 819 1550 804"/>
+  </g>
+  <path d="M245 558 L1320 558 Q1387 558 1455 596 L1387 640 Q1335 668 1256 672 L395 672 Q323 670 275 630 L226 590Z" fill="url(#hull)"/>
+  <path d="M255 574 L1320 574 Q1388 574 1430 596 L1377 609 L275 609Z" fill="#bd7258" opacity=".9"/>
+  <path d="M394 548 L1195 548 L1278 558 L398 558Z" fill="#b7b8a7" opacity=".88"/>
+  <g fill="#d0c5ae">
+    <rect x="477" y="480" width="142" height="67" rx="22"/><rect x="640" y="480" width="142" height="67" rx="22"/>
+    <rect x="803" y="480" width="142" height="67" rx="22"/><rect x="966" y="480" width="142" height="67" rx="22"/>
+  </g>
+  <g fill="#8b9b94" opacity=".7">
+    <rect x="500" y="494" width="96" height="7" rx="3"/><rect x="663" y="494" width="96" height="7" rx="3"/>
+    <rect x="826" y="494" width="96" height="7" rx="3"/><rect x="989" y="494" width="96" height="7" rx="3"/>
+  </g>
+  <g fill="#344b4e">
+    <rect x="314" y="462" width="78" height="87"/><rect x="329" y="425" width="54" height="37"/>
+    <rect x="338" y="403" width="36" height="22"/><rect x="349" y="384" width="14" height="19"/>
+    <rect x="285" y="531" width="94" height="18"/><rect x="1168" y="504" width="17" height="44"/><rect x="1183" y="514" width="40" height="34"/>
+  </g>
+  <g fill="none" stroke="#73837d" stroke-width="5" stroke-linecap="round">
+    <path d="M420 536 V464 H462 V536"/><path d="M432 464 V447 H450 V464"/>
+    <path d="M1102 535 V466 H1138 V535"/><path d="M1111 466 V450 H1128 V466"/>
+    <path d="M378 489 H420 M462 501 H477 M1108 484 H1089"/>
+  </g>
+  <g fill="#f1c995" opacity=".9"><circle cx="350" cy="438" r="4"/><circle cx="371" cy="438" r="4"/><circle cx="1191" cy="527" r="3"/></g>
+  <path d="M230 642 C455 666 690 661 902 666 S1260 672 1400 639" fill="none" stroke="#e18a62" stroke-opacity=".42" stroke-width="5"/>
+  <g fill="none" stroke="#80a4a3" stroke-opacity=".34" stroke-width="4">
+    <path d="M42 711 C165 690 286 721 420 704"/><path d="M1050 757 C1174 738 1290 763 1416 748"/>
+    <path d="M390 822 C500 805 585 827 696 813"/><path d="M1120 866 C1234 848 1370 876 1500 855"/>
+  </g>
+</svg>

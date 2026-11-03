@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">Oil futures fell roughly 8 percent on November 2, 2026</title>
+<desc id="desc">Brent front-month futures fell 7.6 percent to 104 dollars and 77 cents a barrel, as reported by AP. WTI futures fell nearly 8 percent to around 96 dollars and 30 cents, according to CME Group.</desc>
+<rect width="1100" height="620" rx="24" fill="#f7f5ef"/>
+<text x="70" y="78" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#173341">One session removed roughly 8% from both benchmarks</text>
+<text x="70" y="119" font-family="Arial,sans-serif" font-size="20" fill="#536873">Front-month futures · Monday, 2 November 2026</text>
+<g font-family="Arial,sans-serif" fill="#173341"><text x="85" y="220" font-size="24" font-weight="700">Brent</text><text x="85" y="254" font-size="17" fill="#64747c">settled at $104.77/bbl</text><rect x="290" y="190" width="560" height="58" rx="12" fill="#c85c46"/><text x="880" y="229" font-size="26" font-weight="700" fill="#c85c46">−7.6%</text><text x="85" y="355" font-size="24" font-weight="700">WTI</text><text x="85" y="389" font-size="17" fill="#64747c">traded around $96.30/bbl</text><rect x="290" y="325" width="575" height="58" rx="12" fill="#c85c46"/><text x="895" y="364" font-size="26" font-weight="700" fill="#c85c46">nearly −8%</text></g>
+<line x1="290" y1="440" x2="870" y2="440" stroke="#c6d0d1" stroke-width="2"/>
+<g font-family="Arial,sans-serif" font-size="16" fill="#64747c"><text x="290" y="470">0%</text><text x="555" y="470">about −4%</text><text x="828" y="470">about −8%</text></g>
+<text x="70" y="530" font-family="Arial,sans-serif" font-size="16" fill="#536873">CME attributed the selloff to reported diplomatic progress; this is a market explanation, not proof of restored flows.</text>
+<text x="70" y="570" font-family="Arial,sans-serif" font-size="14" fill="#7b898c">Sources: AP (Brent close and daily move); CME Group (WTI move and approximate trade). WTI price is approximate.</text></svg>
