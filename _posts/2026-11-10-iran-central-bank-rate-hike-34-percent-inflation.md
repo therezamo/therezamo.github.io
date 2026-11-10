@@ -1,7 +1,6 @@
 ---
 title: "Why Iran's Central Bank Raised the Policy Rate to 34% Against 80% Inflation — and What Happens Next"
 description: "The CBI broke its 10-week 24% rate freeze with a nearly 10-point hike to 33.92%. The move is overdue and necessary, but with inflation hovering around 80%, real interest rates remain deeply negative."
-author: Reza Mohammadi
 date: 2026-11-10 12:00:00 +0330
 categories: [Macroeconomics, Monetary Policy]
 tags: [monetary policy, interest rates, inflation, behavioral economics, central banking, emerging markets, taylor rule]
